@@ -336,3 +336,23 @@ small.error{
 #foot .cmd span{
 	line-height: 42px;
 }
+
+/* Blank */
+
+#blank{
+	background: #222;
+	padding: 15px;
+}
+
+#blank .orbit-container{
+	background: none;
+}
+
+#blank .orbit-container .orbit-slides-container img{
+	margin: auto;
+	box-shadow: 2px 2px 4px 1px #000;
+}
+
+#blank .orbit-container .orbit-slides-container li{
+	overflow: hidden;
+}

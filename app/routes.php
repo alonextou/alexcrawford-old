@@ -44,3 +44,8 @@ Route::group(['prefix' => 'blog'], function()
 Route::get('logout', ['as' => 'logout', 'uses' => 'AuthController@getLogout']);
 
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@getIndex']);
+
+Route::get('slide', ['as' => 'slide', function()
+{
+	return View::make('slide');
+}]);

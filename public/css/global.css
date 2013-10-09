@@ -11660,3 +11660,26 @@ small.error {
 #foot .cmd span {
   line-height: 42px;
 }
+
+/* Blank */
+/* line 342, ../sass/global.scss */
+#blank {
+  background: #222;
+  padding: 15px;
+}
+
+/* line 347, ../sass/global.scss */
+#blank .orbit-container {
+  background: none;
+}
+
+/* line 351, ../sass/global.scss */
+#blank .orbit-container .orbit-slides-container img {
+  margin: auto;
+  box-shadow: 2px 2px 4px 1px #000;
+}
+
+/* line 356, ../sass/global.scss */
+#blank .orbit-container .orbit-slides-container li {
+  overflow: hidden;
+}
