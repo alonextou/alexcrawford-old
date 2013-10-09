@@ -50,13 +50,19 @@
 				<div class="medium-4 small-8 columns pull-right">
 					<ul class="side-nav">
 						<li>
-							<a href="#"><i class="icon-phone"></i>321-759-5293</a>
+							<a href="#">
+								<i class="icon-phone"></i>321-759-5293
+							</a>
 						</li>
 						<li>
-							<a href="#"><i class="icon-envelope"></i>Contact Me</a>
+							<a href="mailto:awc737@gmail.com">
+								<i class="icon-envelope"></i>Contact Me
+							</a>
 						</li>
 						<li>
-							<a href="#"><i class="icon-cloud"></i>Download my Resume</a>
+							<a href="{{ URL::to('files/alexcrawford-resume-2013.pdf') }}" target="_blank">
+								<i class="icon-cloud"></i>Download my Resume
+							</a>
 						</li>
 					</ul>
 				</div>
