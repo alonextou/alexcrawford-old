@@ -14,6 +14,10 @@
 
 			<img src="{{ $blog['image'] }}" class="intro hide-for-small">
 
+			<div class="twitter hide-for-small">
+				@include('partials/twitter')
+			</div>
+
 			<div class="row show-for-small">
 				<div class="small-4 columns">
 					<img src="{{ $blog['image'] }}" class="intro">

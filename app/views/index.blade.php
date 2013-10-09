@@ -1,24 +1,7 @@
 @extends('layouts/default')
 
 @section('page')
-	<div class="medium-5 columns">
-		<div id="skills">
-			<h5><i class="icon-tags"></i>Skills</h5>
-			<p>
-				<label>HTML5, CSS3, Javascript,</label>
-				<label>Mobile applications, Responsive design, </label>
-				<label>Server management, architecture, dev-ops, </label>
-				<label>PHP5, Laravel, Joomla, Drupal, Symfony, </label>
-				<label>jQuery, Node, Grunt, Angular, Ember, </label>
-				<label>SQL, MSSQL, MySQL, PostgreSQL, </label>
-				<label>NoSQL, MongoDB, RethinkDB, </label>
-				<label>Redis, Memcached, SOLR, ElasticSearch, </label>
-				<label>Git, Vagrant, Chef/Puppet, NGINX, Apache, </label>
-				<label>Linux, C#, Java, Ruby, Python</label>
-			</p>
-		</div>
-	</div>
-	<div class="medium-7 columns">
+	<div class="medium-7 columns pull-right">
 		<div id="overview">
 			<h5><i class="icon-align-center"></i>What I Do</h5>
 			<div class="row text-center">
@@ -50,6 +33,28 @@
 					</div>
 				@endforeach
 			</div>
+		</div>
+	</div>
+	<div class="medium-5 columns">
+		<div id="skills">
+			<h5><i class="icon-tags"></i>Skills</h5>
+			<p>
+				<label>HTML5, CSS3, Javascript,</label>
+				<label>Mobile applications, Responsive design, </label>
+				<label>Server management, architecture, dev-ops, </label>
+				<label>PHP5, Laravel, Joomla, Drupal, Symfony, </label>
+				<label>jQuery, Node, Grunt, Angular, Ember, </label>
+				<label>SQL, MSSQL, MySQL, PostgreSQL, </label>
+				<label>NoSQL, MongoDB, RethinkDB, </label>
+				<label>Redis, Memcached, SOLR, ElasticSearch, </label>
+				<label>Git, Vagrant, Chef/Puppet, NGINX, Apache, </label>
+				<label>Linux, C#, Java, Ruby, Python</label>
+			</p>
+		</div>
+
+		<div class="twitter">
+			<h5><i class="icon-twitter"></i>Latest Tweets</h5>
+			@include('partials/twitter')
 		</div>
 	</div>
 @stop

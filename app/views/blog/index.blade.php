@@ -17,11 +17,17 @@
 			<label>Linux, C#, Java, Ruby, Python</label>
 		</p>
 	</div>
+	
 	<div id="archive">
 		<h5><i class="icon-time"></i>Archive</h5>
 		<p>
 			<a href="#">September 2013</a>
 		</p>
+	</div>
+
+	<div class="twitter">
+		<h5><i class="icon-twitter"></i>Latest Tweets</h5>
+		@include('partials/twitter')
 	</div>
 </div>
 <div class="medium-8 pull-right columns">
