@@ -46,6 +46,7 @@
 			</div>
 		</div>
 
+		@include('partials/ganalytics')
 		<script src="{{ URL::asset('js/global.js') }}"></script>
 	</body>
 </html>
