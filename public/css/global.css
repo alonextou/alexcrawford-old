@@ -11354,37 +11354,35 @@ small.error {
 
 /* line 70, ../sass/global.scss */
 #top h1 {
-  font-size: 28px;
-  letter-spacing: 3px;
-  text-shadow: 1px 1px 1px #eee, 2px 2px 1px #999, 3px 3px 1px #777;
+  letter-spacing: 2px;
 }
 
-/* line 76, ../sass/global.scss */
+/* line 74, ../sass/global.scss */
 #top h1 a {
   font-weight: normal;
 }
 
-/* line 80, ../sass/global.scss */
+/* line 78, ../sass/global.scss */
 #top ul li > a {
   letter-spacing: 1px;
   font-weight: normal;
 }
 
-/* line 85, ../sass/global.scss */
+/* line 83, ../sass/global.scss */
 #top .social a i {
   position: relative;
   top: 4px;
 }
 
 /* Head */
-/* line 92, ../sass/global.scss */
+/* line 90, ../sass/global.scss */
 #head {
   color: #fff;
   background: #222;
   padding-top: 15px;
 }
 
-/* line 98, ../sass/global.scss */
+/* line 96, ../sass/global.scss */
 #head h6 {
   color: #fff;
   letter-spacing: 1px;
@@ -11394,25 +11392,25 @@ small.error {
   font-size: 24px;
 }
 
-/* line 107, ../sass/global.scss */
+/* line 105, ../sass/global.scss */
 #head p {
   font-size: 14px;
 }
 
-/* line 111, ../sass/global.scss */
+/* line 109, ../sass/global.scss */
 #head img {
   width: 120px;
   padding-bottom: 15px;
 }
 
-/* line 116, ../sass/global.scss */
+/* line 114, ../sass/global.scss */
 #head .side-nav {
   display: inline-block;
   float: right;
   padding-top: 0;
 }
 
-/* line 122, ../sass/global.scss */
+/* line 120, ../sass/global.scss */
 #head .side-nav a i {
   float: left;
   color: #fff;
@@ -11420,7 +11418,7 @@ small.error {
   line-height: 28px;
 }
 
-/* line 129, ../sass/global.scss */
+/* line 127, ../sass/global.scss */
 #head .side-nav a {
   text-align: right;
   display: block;
@@ -11431,25 +11429,25 @@ small.error {
   border-bottom: 1px solid #fff;
 }
 
-/* line 139, ../sass/global.scss */
+/* line 137, ../sass/global.scss */
 #head .side-nav a:hover {
   color: #fff;
 }
 
-/* line 143, ../sass/global.scss */
+/* line 141, ../sass/global.scss */
 #head .side-nav a:hover i {
   color: #ea5654;
 }
 
 /* Main */
-/* line 149, ../sass/global.scss */
+/* line 147, ../sass/global.scss */
 #main {
   padding-top: 10px;
   background: #eee;
   padding-bottom: 30px;
 }
 
-/* line 155, ../sass/global.scss */
+/* line 153, ../sass/global.scss */
 #main h5 {
   background: #222;
   color: #fff;
@@ -11459,70 +11457,70 @@ small.error {
   margin-top: 0;
 }
 
-/* line 164, ../sass/global.scss */
+/* line 162, ../sass/global.scss */
 #main h5 i {
   margin-right: 10px;
 }
 
 /* Skills */
-/* line 170, ../sass/global.scss */
+/* line 168, ../sass/global.scss */
 #skills label {
   display: inline;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 175, ../sass/global.scss */
+  /* line 173, ../sass/global.scss */
   #skills label {
     display: inherit;
   }
 }
-/* line 180, ../sass/global.scss */
+/* line 178, ../sass/global.scss */
 #tags label {
   display: inline;
 }
 
 /* Overview */
-/* line 186, ../sass/global.scss */
+/* line 184, ../sass/global.scss */
 #overview img {
   padding: 0 10px;
   width: 48px;
 }
 
-/* line 191, ../sass/global.scss */
+/* line 189, ../sass/global.scss */
 #overview label {
   margin: 10px 0;
 }
 
-/* line 195, ../sass/global.scss */
+/* line 193, ../sass/global.scss */
 #overview hr {
   margin: 10px 15px;
 }
 
 /* Projects */
-/* line 201, ../sass/global.scss */
+/* line 199, ../sass/global.scss */
 #projects a {
   display: block;
   position: relative;
 }
 
-/* line 206, ../sass/global.scss */
+/* line 204, ../sass/global.scss */
 #projects a {
   margin-top: 10px;
   background-color: #fff;
   padding: 5px;
 }
 
-/* line 212, ../sass/global.scss */
+/* line 210, ../sass/global.scss */
 #projects a:hover img {
   opacity: .8;
 }
 
-/* line 216, ../sass/global.scss */
+/* line 214, ../sass/global.scss */
 #projects a:hover .overlay {
   background: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/search-64.png) center center no-repeat;
 }
 
-/* line 220, ../sass/global.scss */
+/* line 218, ../sass/global.scss */
 #projects a label {
   position: absolute;
   top: 0;
@@ -11537,20 +11535,20 @@ small.error {
   opacity: .8;
 }
 
-/* line 234, ../sass/global.scss */
+/* line 232, ../sass/global.scss */
 #projects a:hover label {
   display: block;
 }
 
 /* Blog */
-/* line 240, ../sass/global.scss */
+/* line 238, ../sass/global.scss */
 .blogs .blog {
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
 
-/* line 246, ../sass/global.scss */
+/* line 244, ../sass/global.scss */
 .blogs .blog h3 {
   font-size: 24px;
   margin-bottom: 0;
@@ -11558,18 +11556,18 @@ small.error {
   margin-bottom: 5px;
 }
 
-/* line 253, ../sass/global.scss */
+/* line 251, ../sass/global.scss */
 .blogs .blog h3 a {
   margin-bottom: 0;
   padding-left: 10px;
 }
 
-/* line 258, ../sass/global.scss */
+/* line 256, ../sass/global.scss */
 .blogs .blog h3 i {
   padding-right: 10px;
 }
 
-/* line 262, ../sass/global.scss */
+/* line 260, ../sass/global.scss */
 .blogs .blog .content {
   background: #fff;
   border: 1px solid #ccc;
@@ -11577,88 +11575,88 @@ small.error {
   position: relative;
 }
 
-/* line 269, ../sass/global.scss */
+/* line 267, ../sass/global.scss */
 .blogs .blog img {
   width: 192px;
 }
 
-/* line 273, ../sass/global.scss */
+/* line 271, ../sass/global.scss */
 .blogs .blog.odd img {
   padding-right: 15px;
   float: left;
 }
 
-/* line 278, ../sass/global.scss */
+/* line 276, ../sass/global.scss */
 .blogs .blog.even img {
   padding-left: 15px;
   float: right;
 }
 
-/* line 283, ../sass/global.scss */
+/* line 281, ../sass/global.scss */
 .blogs .blog .intro {
   margin-bottom: 45px;
 }
 
-/* line 287, ../sass/global.scss */
+/* line 285, ../sass/global.scss */
 .blogs .blog .readmore {
   position: absolute;
   bottom: 0;
 }
 
-/* line 292, ../sass/global.scss */
+/* line 290, ../sass/global.scss */
 .blogs .blog.odd .readmore {
   right: 15px;
 }
 
-/* line 296, ../sass/global.scss */
+/* line 294, ../sass/global.scss */
 .blogs .blog.even .readmore {
   left: 15px;
 }
 
-/* line 300, ../sass/global.scss */
+/* line 298, ../sass/global.scss */
 #article img.intro {
   padding-left: 15px;
 }
 
 /* Actions */
-/* line 306, ../sass/global.scss */
+/* line 304, ../sass/global.scss */
 #actions.panel {
   padding: 10px;
   margin-bottom: 10px;
 }
 
 /* Foot */
-/* line 313, ../sass/global.scss */
+/* line 311, ../sass/global.scss */
 #foot {
   color: #fff;
   background: #222;
   padding: 15px 0;
 }
 
-/* line 319, ../sass/global.scss */
+/* line 317, ../sass/global.scss */
 #foot .icons img {
   height: 36px;
   margin-left: 10px;
   background-color: #fff;
 }
 
-/* line 325, ../sass/global.scss */
+/* line 323, ../sass/global.scss */
 #foot .cmd, #foot .icons {
   font-size: 12px;
   letter-spacing: 2px;
 }
 
-/* line 330, ../sass/global.scss */
+/* line 328, ../sass/global.scss */
 #foot .cmd img {
   height: 42px;
 }
 
-/* line 334, ../sass/global.scss */
+/* line 332, ../sass/global.scss */
 #foot .icons span {
   line-height: 36px;
 }
 
-/* line 338, ../sass/global.scss */
+/* line 336, ../sass/global.scss */
 #foot .cmd span {
   line-height: 42px;
 }
