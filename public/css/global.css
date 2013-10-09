@@ -11524,6 +11524,7 @@ small.error {
 #projects a label {
   position: absolute;
   top: 0;
+  left: 0;
   color: #fff;
   background: #222;
   width: 100%;
@@ -11535,20 +11536,20 @@ small.error {
   opacity: .8;
 }
 
-/* line 232, ../sass/global.scss */
+/* line 233, ../sass/global.scss */
 #projects a:hover label {
   display: block;
 }
 
 /* Blog */
-/* line 238, ../sass/global.scss */
+/* line 239, ../sass/global.scss */
 .blogs .blog {
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
 
-/* line 244, ../sass/global.scss */
+/* line 245, ../sass/global.scss */
 .blogs .blog h3 {
   font-size: 24px;
   margin-bottom: 0;
@@ -11556,18 +11557,18 @@ small.error {
   margin-bottom: 5px;
 }
 
-/* line 251, ../sass/global.scss */
+/* line 252, ../sass/global.scss */
 .blogs .blog h3 a {
   margin-bottom: 0;
   padding-left: 10px;
 }
 
-/* line 256, ../sass/global.scss */
+/* line 257, ../sass/global.scss */
 .blogs .blog h3 i {
   padding-right: 10px;
 }
 
-/* line 260, ../sass/global.scss */
+/* line 261, ../sass/global.scss */
 .blogs .blog .content {
   background: #fff;
   border: 1px solid #ccc;
@@ -11575,112 +11576,112 @@ small.error {
   position: relative;
 }
 
-/* line 267, ../sass/global.scss */
+/* line 268, ../sass/global.scss */
 .blogs .blog img {
   width: 192px;
 }
 
-/* line 271, ../sass/global.scss */
+/* line 272, ../sass/global.scss */
 .blogs .blog.odd img {
   padding-right: 15px;
   float: left;
 }
 
-/* line 276, ../sass/global.scss */
+/* line 277, ../sass/global.scss */
 .blogs .blog.even img {
   padding-left: 15px;
   float: right;
 }
 
-/* line 281, ../sass/global.scss */
+/* line 282, ../sass/global.scss */
 .blogs .blog .intro {
   margin-bottom: 45px;
 }
 
-/* line 285, ../sass/global.scss */
+/* line 286, ../sass/global.scss */
 .blogs .blog .readmore {
   position: absolute;
   bottom: 0;
 }
 
-/* line 290, ../sass/global.scss */
+/* line 291, ../sass/global.scss */
 .blogs .blog.odd .readmore {
   right: 15px;
 }
 
-/* line 294, ../sass/global.scss */
+/* line 295, ../sass/global.scss */
 .blogs .blog.even .readmore {
   left: 15px;
 }
 
 /* Article */
-/* line 300, ../sass/global.scss */
+/* line 301, ../sass/global.scss */
 #article img.intro {
   padding-bottom: 15px;
 }
 
 /* Actions */
-/* line 306, ../sass/global.scss */
+/* line 307, ../sass/global.scss */
 #actions.panel {
   padding: 10px;
   margin-bottom: 10px;
 }
 
 /* Foot */
-/* line 313, ../sass/global.scss */
+/* line 314, ../sass/global.scss */
 #foot {
   color: #fff;
   background: #222;
   padding: 15px 0;
 }
 
-/* line 319, ../sass/global.scss */
+/* line 320, ../sass/global.scss */
 #foot .icons img {
   height: 36px;
   margin-left: 10px;
   background-color: #fff;
 }
 
-/* line 325, ../sass/global.scss */
+/* line 326, ../sass/global.scss */
 #foot .cmd, #foot .icons {
   font-size: 12px;
   letter-spacing: 2px;
 }
 
-/* line 330, ../sass/global.scss */
+/* line 331, ../sass/global.scss */
 #foot .cmd img {
   height: 42px;
 }
 
-/* line 334, ../sass/global.scss */
+/* line 335, ../sass/global.scss */
 #foot .icons span {
   line-height: 36px;
 }
 
-/* line 338, ../sass/global.scss */
+/* line 339, ../sass/global.scss */
 #foot .cmd span {
   line-height: 42px;
 }
 
 /* Blank */
-/* line 344, ../sass/global.scss */
+/* line 345, ../sass/global.scss */
 #blank {
   background: #222;
   padding: 15px;
 }
 
-/* line 349, ../sass/global.scss */
+/* line 350, ../sass/global.scss */
 #blank .orbit-container {
   background: none;
 }
 
-/* line 353, ../sass/global.scss */
+/* line 354, ../sass/global.scss */
 #blank .orbit-container .orbit-slides-container img {
   margin: auto;
   box-shadow: 2px 2px 4px 1px #000;
 }
 
-/* line 358, ../sass/global.scss */
+/* line 359, ../sass/global.scss */
 #blank .orbit-container .orbit-slides-container li {
   overflow: hidden;
 }
