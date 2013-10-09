@@ -1,0 +1,340 @@
+@import 'libs/normalize';
+@import 'foundation/foundation';
+@import 'libs/redactor';
+@import 'font-awesome/font-awesome';
+
+body{
+	background: #222;
+}
+
+/* Misc */
+
+.clear{
+	clear: both;
+}
+
+button, .button{
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+small.error{
+	font-weight: normal;
+	letter-spacing: 2px;
+	font-size: 11px;
+	padding: 5px 10px;
+}
+
+.alert-box{
+	margin-bottom: 0;
+	border: none;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.alert-box .close{
+	position: absolute;
+	top: 2px;
+	right: 3px;
+	color: #fff;
+}
+
+.tooltip{
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+/* Admin */
+
+#create-article-form .tags label{
+	background: #fff;
+	padding: 3px;
+	padding-left: 5px;
+	display: inline;
+	border: 1px solid #ccc;
+	border-radius: 0 5px 5px 0;
+}
+
+#create-article-form .tags input[type="checkbox"]{
+	margin-right: 10px;
+	margin-left: 5px;
+} 
+
+/* Top */
+
+#top{
+	background: #ea5654;
+}
+
+#top h1{
+	font-size: 28px;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 1px #eee, 2px 2px 1px #999, 3px 3px 1px #777;
+}
+
+#top h1 a{
+	font-weight: normal;
+}
+
+#top ul li > a {
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+#top .social a i{
+	position: relative;
+	top: 4px;
+}
+
+/* Head */
+
+#head{
+	color: #fff;
+	background: #222;
+	padding-top: 15px;
+}
+
+#head h6{
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 0;
+	line-height: 18px;
+	padding-bottom: 5px;
+	font-size: 24px;
+}
+
+#head p{
+	font-size: 14px;
+}
+
+#head img{
+	width: 120px;
+	padding-bottom: 15px;
+}
+
+#head .side-nav{
+	display: inline-block;
+	float: right;
+	padding-top: 0;
+}
+
+#head .side-nav a i{
+	float: left;
+	color: #fff;
+	margin-right: 30px;
+	line-height: 28px;
+}
+
+#head .side-nav a{
+	text-align: right;
+	display: block;
+	color: #ea5654;
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #fff;
+}
+
+#head .side-nav a:hover{
+	color: #fff;
+}
+
+#head .side-nav a:hover i{
+	color: #ea5654;
+}
+
+/* Main */
+
+#main{
+	padding-top: 10px;
+	background: #eee;
+	padding-bottom: 30px;
+}
+
+#main h5{
+	background: #222;
+	color: #fff;
+	padding: 5px 15px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+#main h5 i{
+	margin-right: 10px;
+}
+
+/* Skills */
+
+#skills label{
+	display: inline;
+}
+
+@media #{$small} {
+	#skills label{
+		display: inherit;
+	}
+}
+
+#tags label{
+	display: inline;
+}
+
+/* Overview */
+
+#overview img{
+	padding: 0 10px;
+	width: 48px;
+}
+
+#overview label{
+	margin: 10px 0;
+}
+
+#overview hr{
+	margin: 10px 15px;
+}
+
+/* Projects */
+
+#projects a{
+	display: block;
+	position: relative;
+}
+
+#projects a{
+	margin-top: 10px;
+	background-color: #fff;
+	padding: 5px;
+}
+
+#projects a:hover img{
+	opacity: .8;
+}
+
+#projects a:hover .overlay{
+	background: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/search-64.png) center center no-repeat;
+}
+
+#projects a label{
+	position: absolute;
+	top: 0;
+	color: #fff;
+	background: #222;
+	width: 100%;
+	display: none;
+	padding: 5px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-size: 12px;
+	opacity: .8;
+}
+
+#projects a:hover label{
+	display: block;
+}
+	
+/* Blog */
+
+.blogs .blog{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.blogs .blog h3{
+	font-size: 24px;
+	margin-bottom: 0;
+	border-left: 4px solid #ea5654;
+	margin-bottom: 5px;
+}
+
+.blogs .blog h3 a{
+	margin-bottom: 0;
+	padding-left: 10px;
+}
+
+.blogs .blog h3 i{
+	padding-right: 10px;
+}
+
+.blogs .blog .content{
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 15px;
+	position: relative;
+}
+
+.blogs .blog img{
+	width: 192px;
+}
+
+.blogs .blog.odd img{
+	padding-right: 15px;
+	float: left;
+}
+
+.blogs .blog.even img{
+	padding-left: 15px;
+	float: right;
+}
+
+.blogs .blog .intro{
+	margin-bottom: 45px;
+}
+
+.blogs .blog .readmore{
+	position: absolute;
+	bottom: 0;
+}
+
+.blogs .blog.odd .readmore{
+	right: 15px;
+}
+
+.blogs .blog.even .readmore{
+	left: 15px;
+}
+
+#article img.intro{
+	padding-left: 15px;
+}
+
+/* Actions */
+
+#actions.panel{
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+/* Foot */
+
+#foot{
+	color: #fff;
+	background: #222;
+	padding: 15px 0;
+}
+
+#foot .icons img{
+	height: 36px;
+	margin-left: 10px;
+	background-color: #fff;
+}		
+
+#foot .cmd, #foot .icons{
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+#foot .cmd img{
+	height: 42px;
+}
+
+#foot .icons span{
+	line-height: 36px;
+}
+
+#foot .cmd span{
+	line-height: 42px;
+}
